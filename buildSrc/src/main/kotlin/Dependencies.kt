@@ -2,11 +2,12 @@
 object Dependencies {
 
     object Compose {
-        const val version = "1.0.5"
+        const val version = "1.1.1"
         const val ui = "androidx.compose.ui:ui:$version"
         const val material = "androidx.compose.material:material:$version"
         const val tooling = "androidx.compose.ui:ui-tooling-preview:$version"
         const val livedata = "androidx.compose.runtime:runtime-livedata:$version"
+        const val activityCompose = "androidx.activity:activity-compose:$version"
 
         const val toolingTest = "androidx.compose.ui:ui-tooling:$version"
         const val uiTest = "androidx.compose.ui:ui-test-junit4:$version"
